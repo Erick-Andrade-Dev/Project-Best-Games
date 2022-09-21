@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types"
-import games from "../Data/data";
 import GamesCard from "./GamesCard";
 
 export default class GamesList extends React.Component {
     render() {
+        const { games } = this.props
         return(
             <div className="games-list">
                 {

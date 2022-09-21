@@ -30,7 +30,7 @@ export default class BestGames extends React.Component {
         this.setState({ selectedCategory: e.target.value })
     }
 
-    filters = () => {
+    filter = () => {
         const { searchText, games, bookmarkedOnly, selectedCategory } = this.state;
         if (bookmarkedOnly === true) {
           return games.filter((game) => game.bookmarked === true);
@@ -54,7 +54,7 @@ export default class BestGames extends React.Component {
     }
 
     render() {
-        const games = this.filters();
+        const games = this.filter();
         const { searchText, bookmarkedOnly, selectedCategory } = this.state
         return(
             <div>
