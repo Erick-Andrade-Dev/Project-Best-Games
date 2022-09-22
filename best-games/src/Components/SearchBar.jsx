@@ -9,8 +9,9 @@ export default class SearchBar extends Component {
     return (
       <form className="form-flex" data-testid="search-bar-form">
         <label htmlFor="input-text" data-testid="text-input-label">
-          <p className="label-p">Inclui texto</p>
+          <p className="label-p1">Inclui texto</p>
           <input
+            className='text-name'
             type="text"
             id="input-text"
             value={ searchText }
@@ -19,8 +20,9 @@ export default class SearchBar extends Component {
           />
         </label>
         <label htmlFor="input-checkbox" data-testid="checkbox-input-label">
-          <p className="label-p">Mostrar somente favoritos.</p>
+          <p className="label-p1">Mostrar somente favoritos.</p>
           <input
+            className='checkbox'
             type="checkbox"
             id="input-checkbox"
             checked={ bookmarkedOnly }
@@ -29,7 +31,7 @@ export default class SearchBar extends Component {
           />
         </label>
         <label htmlFor="select" data-testid="select-input-label">
-          <p className="label-p">Filtrar por gênero</p>
+          <p className="label-p1">Filtrar por gênero</p>
           <select
             name="select"
             id="select"

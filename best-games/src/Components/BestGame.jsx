@@ -58,7 +58,7 @@ export default class BestGames extends React.Component {
         const { searchText, bookmarkedOnly, selectedCategory } = this.state
         return(
             <div>
-                <h2> Meus jogos favoritos! </h2>
+                <h2 className="subtitle-game"> Meus jogos favoritos! </h2>
                 <SearchBar
                     searchText={ searchText }
                     onSearchTextChange={ this.handleSearch }

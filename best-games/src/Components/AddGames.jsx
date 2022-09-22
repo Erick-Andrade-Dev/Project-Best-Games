@@ -103,9 +103,9 @@ export default class AddGames extends React.Component {
                 onChange={ this.handleChange }                
               >
                 <option value="">Todos</option>
-                <option value="MMORpg">Ação</option>
-                <option value="Moba">Comédia</option>
-                <option value="FPS">Suspense</option>
+                <option value="MMORpg">MMORpg</option>
+                <option value="Moba">Moba</option>
+                <option value="FPS">FPS</option>
               </select>
             </label>
             <button

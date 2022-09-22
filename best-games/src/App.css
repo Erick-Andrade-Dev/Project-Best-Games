@@ -1,10 +1,163 @@
 * {
+  /* background-color: black; */
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
 
 img {
-  width: 685px;
-  height: 383px;
+  width: 298px;
+  height: 261px;
+}
+
+.page-title{
+  color: rgb(24, 231, 24);
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  font-size: 70px;
+  font-style: oblique;
+}
+
+.subtitle-game {
+  margin-top: 1px;
+  text-align: center;
+  font-size: xx-large;
+  color: rgb(0, 0, 0);   
+  background-color: rgb(24, 231, 24); 
+  padding: 10px;
+}
+
+.form-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.label-p1 {
+  margin-top: 18px;
+  color: rgb(0, 0, 0);    
+  font-weight: 700;
+}
+
+#input-text {  
+  margin-bottom: 25px;
+}
+
+.games-card {   
+  border: 1px solid rgb(11, 53, 10);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin: 5px;
+  overflow: hidden;
+  width: 300px;  
+}
+
+.games-card-image {
+  width: 100%;
+}
+
+.game-card-body {
+  flex: 1 1 auto;
+  padding: 20px;
+}
+
+.game-card-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 12px;
+}
+
+.game-card-subtitle {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 8px;
+}
+
+.game-card-storyline {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.rating {
+  background-color: #007bff;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 3px 9px;
+}
+
+.games-card-rating {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 20px;
+}
+
+.games-list {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 38px 50px;
+}
+
+button {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;  
+  border-radius: 50px;
+  border: 2px double black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: rgb(0, 255, 0);
+  font-weight: 700;
+  width: 250px;
+  padding: 10px;
+  opacity: 0.9;
+  font-size: 20px; 
+  margin-bottom: 10px; 
+  
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+input {
+  margin-top: 5px;
+  padding: 4px;
+  width: 70%;
+  margin-left: 15px;
+}
+
+p {
+  margin-left: 15px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+textarea {
+  margin-left: 15px;
+}
+
+select {
+  margin-left: 15px;
+}
+
+.checkbox {  
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.text-name {
+  width: 100%;
 }
